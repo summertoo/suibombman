@@ -1,6 +1,15 @@
 # suibombman 更新日常
 https://github.com/summertoo/suibombman.git 
 
+## 听闻create-dapp的win版本已经修复(可喜可贺)
+[create-dapp] Fix path handling on windows #15319
+https://github.com/MystenLabs/sui/pull/15319 
+让我们来实际测试一下 运行  
+``` 
+pnpm create @mysten/dapp
+```
+看满离  
+![成功](./imgs/createdapp.jpg)
 
 ## 关于预付gas的相关讨论:
 
