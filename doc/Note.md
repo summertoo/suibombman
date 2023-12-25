@@ -1,6 +1,30 @@
 # suibombman 更新日常
 https://github.com/summertoo/suibombman.git 
 
+##一些有帮助的资料
+[书籍]
+https://intro-zh.sui-book.com
+皮卡老师翻译的 Sui Move 导学 中文版 部署到这个域名了 ，大家可以方便学习了
+
+[脚本]
+一键安装sui.exe(Ellen老师)
+因为用 windows 的同学比较多我写了个脚本可以一键下好 sui.exe 。无需安装 rust
+Invoke-Expression (Invoke-WebRequest -Uri "https://gist.githubusercontent.com/WGB5445/73b3b54f8293125d4ba74260ea5a39ce/raw" -UseBasicParsing).Content    
+
+简述我完成星航第二阶段的步骤(准备不是很充分...)
+https://www.youtube.com/watch?v=iVlvx-On59w
+
+##关于table和bag
+可以把 table 想成 solidity 的 mapping（key&value 的 type 需要一致）但是 bag 不用
+較常見的用法與例子是： table 紀錄特地資訊，例如特定地址的資訊 --> Table<address, u64>。
+而 bag 可以是一個 object 需要儲存多種 token 時，為了減少 generic type 的輸入，把多種 token 同時放在一個 field 的 Bag type 底下，避免 type 的檢查
+* by Jarek Lin
+
+table的value是同类型数据
+bag的value可以是不同类型数据
+* by Clayon
+
+
 ## 听闻1.15.1版本上线主网(可喜可贺)
 ### Win版老用户快速5分钟升级到1.15.1
 访问链接  
