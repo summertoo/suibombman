@@ -1,6 +1,30 @@
 # suibombman 更新日常
 https://github.com/summertoo/suibombman.git 
 
+## 听闻1.15.1版本上线主网(可喜可贺)
+### Win版老用户快速5分钟升级到1.15.1
+访问链接  
+```
+https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.15.1
+```
+我是win用户所以下载文件,其他平台的各取所需  
+sui-mainnet-v1.15.1-windows-x86_64.tgz  
+![1.15.1](./imgs/main1.15.1.jpg)
+解压压缩包,将文件sui-windows-x86_64.exe改名为sui.exe
+移动入 C:\Users\Administrator\.cargo\bin
+输入命令看一下当前版本  
+![1.15.1cmd](./imgs/sui15.1version.jpg)  
+下载源码 Source Code zip 并解压至工程同级目录  
+修改toml 这里的../../../ 要根据实际情况调整
+```
+Sui = { local = "../../../sui/crates//sui-framework/packages/sui-framework"}
+```
+编译和测试通过  
+![over](./imgs/sui15buildtestover.jpg)  
+愉快的编码吧
+
+
+
 ## 听闻create-dapp的win版本已经修复(可喜可贺)
 [create-dapp] Fix path handling on windows #15319
 https://github.com/MystenLabs/sui/pull/15319 
