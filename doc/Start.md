@@ -1,8 +1,8 @@
 # Bomb-Man方案详细草案
 
-## V 0.0.5
+## V 0.0.6
 
-### 这里鸣谢: 诺尔
+### 这里鸣谢: 诺尔 uvd 不霁何虹 Majoson Euraxluo jolestar Clayon  chrissun
 排名不分先后
 
 # 1.游戏设计策略
