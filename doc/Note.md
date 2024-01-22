@@ -1,6 +1,47 @@
 # suibombman 更新日常
 https://github.com/summertoo/suibombman.git 
 
+## 听闻1.16.2版本上线主网(可喜可贺)
+### Win版老用户快速5分钟升级到1.16.2
+https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.16.2
+
+下载
+sui-mainnet-v1.16.2-windows-x86_64.tgz (其他平台请下载各自的文件)
+和源码
+Source code(zip) 源码文件全部覆盖掉之前存放源码的目录中
+
+解压
+sui-mainnet-v1.16.2-windows-x86_64.tgz文件
+修改
+sui-windows-x86_64.exe 
+文件名为
+sui.exe 
+
+找到sui的安装目录 C:\Users\Administrator\.cargo\bin\
+将sui.exe 拷贝过去,覆盖原文件
+
+命令行执行  检查一下当前版本
+```
+sui -Vv
+```
+sui 1.16.2-1151171
+
+确定一下目前环境 为测试环境(<b>正式环境浪费gas不要找我诉苦</b>)
+```
+sui client envs
+```
+
+到自己的项目中执行测试
+```
+sui move build --skip-fetch-latest-git-deps
+sui move test --skip-fetch-latest-git-deps
+sui client publish --skip-fetch-latest-git-deps --skip-dependency-verification --gas-budget 100000000
+```
+
+记得点赞收藏加转发
+
+
+
 ##一些有帮助的资料
 [书籍]
 https://intro-zh.sui-book.com
