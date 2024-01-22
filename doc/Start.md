@@ -2,7 +2,7 @@
 
 ## V 0.0.6
 
-### 这里鸣谢: 诺尔 uvd 不霁何虹 Majoson Euraxluo jolestar Clayon  chrissun
+### 这里鸣谢: 诺尔 uvd 不霁何虹 Majoson Euraxluo jolestar Clayon  Chrissun 皮卡 Jovicheng Phoenix
 排名不分先后
 
 # 1.游戏设计策略
